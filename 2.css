@@ -1,0 +1,154 @@
+body{
+    background-color: #2c2c2c;
+    background-size:cover;
+    background-attachment: fixed;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p1{
+    color: #fff;
+}
+
+
+
+.a1{
+    font-size: 30px;
+    margin-left: -38px;
+    color: black;
+    position:relative;
+    transition: 0.5s;
+}
+.a1:hover{
+    color: rgb(110, 199, 107);
+    font-size: 35px;
+}
+.a2{
+    font-size: 30px;
+    margin-left: 20px;
+    color: black;
+    position:relative;
+    transition: 0.5s;
+}
+.a2:hover{
+    color: rgb(110, 199, 107);
+    font-size: 35px;
+}
+.a3{
+    font-size: 30px;
+    margin-left:25px ;
+    color: black;
+    position:relative; 
+    transition: 0.5s;
+}
+.a3:hover{
+    color: rgb(110, 199, 107);
+    font-size: 35px;
+}
+.a4{
+    font-size: 30px;
+    margin-left: 28px;
+    color: black;
+    position:relative;
+    transition: 0.5s;
+}
+.a{
+    margin-left: 1000px;
+    gap: 10px;
+    
+}
+.a4:hover{
+    color: rgb(110, 199, 107);
+    font-size: 35px;
+}
+.bi{
+    text-decoration: none;
+    color: rgb(125, 122, 122);
+    border-radius: 12px;
+    padding: 6px;
+    background-color:rgba(249, 249, 249, 0);
+    box-shadow: 0px;
+    transition: 1s;
+    box-shadow: 0px;
+    border: 5px;
+}
+.bi:hover{
+    background-color: rgb(69, 195, 65);
+}
+
+.p1{
+    text-align: center;
+    font-size: 22px;
+    margin-top:50px ;  
+}
+
+
+
+.wrapper{
+    width: 100%;  
+    
+    
+}
+.wrapper .container{
+    padding-top: 10px;
+    
+}
+.wrapper .container .hero-section{
+    width: 150%;
+    margin:0px auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-gap: 20px;
+    
+    
+    
+}
+.wrapper .container .hero-section .gallery{
+    width: 100%;
+    position:relative;
+    
+}
+.wrapper .container .hero-section .gallery .image-section{
+    width: 100%;
+    height: 100%;
+}
+.wrapper .container .hero-section .gallery .image-section img{
+    width: 100%;
+    height:auto;
+    border-radius:22px;
+    padding:5px;
+    display: block;
+    
+}
+.wrapper .container .hero-section .gallery .caption{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   padding: 15px;
+   top: 0;
+   left: 0;
+   cursor:pointer;
+   display: flex;
+   justify-content: center;
+   align-items:center ;
+   text-align: center;
+   flex-direction: column;
+   background:rgba(202, 199, 199, 0.161);
+   color: #000000;
+   opacity: 0;
+   transition:opacity 1s ;
+   
+   
+}
+.wrapper .container .hero-section .gallery .caption:hover{
+    opacity: 10 ;
+    
+}
+span{
+    color: #b3b3b3;
+}
+
+

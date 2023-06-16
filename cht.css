@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.a1{
+  font-size: 25px;
+  
+  color: black;
+  position:relative;
+  transition: 0.5s;
+}
+.a1:hover{
+  color: rgb(30, 30, 32);
+  font-size: 30px;
+}
+.a2{
+  font-size: 25px;
+  margin-left: 20px;
+  color: black;
+  position:relative;
+  transition: 0.5s;
+}
+.a2:hover{
+  color: rgb(30, 30, 32);
+  font-size: 30px;
+}
+.a3{
+  font-size: 25px;
+  margin-left:25px ;
+  color: black;
+  position:relative; 
+  transition: 0.5s;
+}
+.a3:hover{
+  color: rgb(30, 30, 32);
+  font-size: 30px;
+}
+.a4{
+  font-size: 25px;
+  margin-left: 28px;
+  color: black;
+  position:relative;
+  transition: 0.5s;
+}
+.a{
+  margin-left: 600px;
+  gap: 10px;
+  margin-top: -40px;
+  
+}
+.a4:hover{
+  color: rgb(30, 30, 32);
+  font-size: 30px;
+}
+.a5{
+  font-size: 25px;
+  margin-left: 28px;
+  color: black;
+  position:relative;
+  transition: 0.5s;
+}
+.a5:hover{
+  color: rgb(30, 30, 32);
+  font-size: 30px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.ta{
+  width: 850px;
+  height: 400px;
+  
+
+}
